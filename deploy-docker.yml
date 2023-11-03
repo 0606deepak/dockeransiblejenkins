@@ -2,10 +2,6 @@
 - hosts: dev
   become: True
   tasks:
-    - name: apt update
-      apt:
-      name: "*"
-      state: latest
     - name: Install python-pip
       apt:
         name: python-pip
