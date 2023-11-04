@@ -21,7 +21,7 @@
         state: present
     - name: Start the container
       docker_container:
-        name: deepakapp
+        name: hariapp
         image: "jeedeepak/java-web-app"
         state: started
         published_ports:
